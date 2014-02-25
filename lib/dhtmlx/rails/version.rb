@@ -1,5 +1,6 @@
-module Dhtmlx
+module DHTMLX
+  VERSION = "3.6"
   module Rails
-    VERSION = "0.0.1"
+    VERSION = "3.6.0"
   end
 end

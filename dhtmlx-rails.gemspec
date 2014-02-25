@@ -5,7 +5,7 @@ require 'dhtmlx/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "dhtmlx-rails"
-  spec.version       = Dhtmlx::Rails::VERSION
+  spec.version       = DHTMLX::Rails::VERSION
   spec.authors       = ["Jason Frey"]
   spec.email         = ["jfrey@redhat.com"]
   spec.description   = %q{Rails assetification of the DHTMLX JavaScript library}

@@ -1,7 +1,2 @@
-require "dhtmlx/rails/version"
-
-module Dhtmlx
-  module Rails
-    # Your code goes here...
-  end
-end
+require 'dhtmlx/rails/engine'
+require 'dhtmlx/rails/version'
