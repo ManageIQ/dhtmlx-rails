@@ -1,6 +1,6 @@
-# Dhtmlx::Rails
+# DHTMLX::Rails
 
-Rails assetification of the DHTMLX JavaScript library
+DHTMLX JavaScript library for the Rails 3.1+ asset pipeline
 
 ## Installation
 

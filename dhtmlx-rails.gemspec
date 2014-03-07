@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = DHTMLX::Rails::VERSION
   spec.authors       = ["Jason Frey"]
   spec.email         = ["jfrey@redhat.com"]
-  spec.description   = %q{Rails assetification of the DHTMLX JavaScript library}
-  spec.summary       = %q{Rails assetification of the DHTMLX JavaScript library}
+  spec.description   = %q{DHTMLX JavaScript library for the Rails 3.1+ asset pipeline}
+  spec.summary       = %q{DHTMLX JavaScript library for the Rails 3.1+ asset pipeline}
   spec.homepage      = "http://github.com/ManageIQ/dhtmlx-rails"
   spec.license       = "GPL v2"
 
