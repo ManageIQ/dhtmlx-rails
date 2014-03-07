@@ -1,0 +1,1 @@
+//= require dhtmlxAccordion/sources/dhtmlxcommon

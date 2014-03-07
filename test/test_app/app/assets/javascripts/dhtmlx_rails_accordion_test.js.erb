@@ -1,0 +1,29 @@
+//= require dhtmlxAccordion
+//= require_self
+
+var dhxAccord;
+function doOnLoad() {
+    dhxAccord = new dhtmlXAccordion("accordObj");
+    dhxAccord.loadJSON(accData);
+}
+var accData = {
+    skin: "dhx_skyblue",
+    cells: [{
+        id: "a1",
+        text: "Main Page"
+    }, {
+        id: "a2",
+        text: "Site Navigation",
+        open: true
+    }, {
+        id: "a3",
+        text: "Support & Feedback",
+        icon: "<%= image_path("icon2.gif") %>"
+    }, {
+        id: "a4",
+        text: "Comments",
+        icon: "<%= image_path("icon3.gif") %>"
+    }]
+}
+
+$(document).ready(doOnLoad);
